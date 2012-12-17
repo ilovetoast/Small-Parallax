@@ -48,7 +48,7 @@ $('[data-sp]').each(function() {
             var anim = {};
             anim[property] = coord;
             
-            $obj.animate(anim,delayAni,easing);            
+            $obj.stop().animate(anim,delayAni,easing);            
             
         });        
     }   
