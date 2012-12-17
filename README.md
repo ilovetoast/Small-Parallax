@@ -10,6 +10,10 @@ View the project @ <a target="_blank" title="View project" href="http://jsfiddle
 <h2>Init</h2>
 <p>Initilize the plugin with a function call: simpleParallax();</p>
 
+<h2>Parameter</h2>
+<strong>delay<em>(int)</em>:</strong> The delay for animating the new position for each scrolling change. <em>(Ex: simpleParallax(55;) )</em>
+<strong>easing<em>(string)</em>:</strong> The delay for animating the new position for each scrolling change.  <em>(Ex: simpleParallax(55,'easeOutBack'); )</em>
+<em>Note: Easing requires a jquery <a target="_bank" href="http://gsgd.co.uk/sandbox/jquery/easing/">easing plugin</a>. If you have none it will revert to 'swing'</em>
 
 <a target="_blank" href="http://steeleimage.com/1icense/" >License information</a>
 
